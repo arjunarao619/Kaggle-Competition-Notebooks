@@ -24,6 +24,7 @@ Images may contain artifacts, be out of focus, underexposed, or overexposed. The
 #### Sample test data images:
 </br>
 <a href='https://postimg.cc/xX1f1ZkS' target='_blank'><img src='https://i.postimg.cc/6pdyYJtT/Screen-Shot-2020-03-30-at-6-34-00-PM.png' border='0' alt='Screen-Shot-2020-03-30-at-6-34-00-PM'/></a> 
+
 ### Model Used:
 - Keras ImageDataGenerator used with Primitive CNN
 - Trained on 80 epochs, categorical crossentropy loss with an ADAM optimizer
@@ -44,6 +45,7 @@ classifier must be capable of predicting whether an images contains a cactus.
 ### Model Used
 
 Keras EfficientNet - Link to paper: https://arxiv.org/abs/1905.11946
+</br></br></br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FH3LWLGN/Screen-Shot-2020-03-30-at-7-04-04-PM.png' border='0' alt='Screen-Shot-2020-03-30-at-7-04-04-PM'/></a>
 - Keras ImageDataGenerator used to augment images
 - Trained on 50 epochs, Binary crossentropy loss with an Adam optimizer
@@ -56,6 +58,7 @@ This training data contains thousands of images of humpback whale flukes. Indivi
 
 #### Sample dataset images:
 <a target='_blank'><img src='https://i.postimg.cc/Gp94ygt7/download-4.png' border='0' alt='download-4'/></a><br /><a></a><br />
+
 ### Model Used:
 - Primitive CNN written in Keras with ImageDataGenerator for augmentation.
 - Categorical crossentropy with Adam optimizer
@@ -72,7 +75,7 @@ FIW's dataset is obtained from publicly available images from celebrities. For m
  vggface_resnet50 - relevant model link: https://www.robots.ox.ac.uk/~vgg/software/vgg_face/
  - Trained on 130 epochs with training accuracy of 0.73
  
- ## 4. Seedling classification challenge
+ ## 4. [Seedling classification challenge](https://www.kaggle.com/c/plant-seedlings-classification)
  
 Provided with a training set and a test set of images of plant seedlings at various stages of grown. Each image has a filename that is its unique id. The dataset comprises 12 plant species. The goal of the competition is to create a classifier capable of determining a plant's species from a photo. The list of species is as follows:
 ```
